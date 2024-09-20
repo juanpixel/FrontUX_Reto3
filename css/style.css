@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", system-ui;
+    color: #191919;
+}
+
+
+p{
+    color: #64748B;
+    margin: 24px 0;
+}
+
+.franja{
+    height: 18px;
+    background-color: #A664FF;
+    margin-bottom: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Lato", system-ui;
+    margin-bottom: 24px;
+
+    & a{
+        font-weight: bold;
+        direction: none;
+        color: black;
+    }
+
+    & p{
+        color: #191919;
+        margin: 0;
+    }
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 24px;
+    
+    & img{
+        width: 100%;
+    }
+}
+
