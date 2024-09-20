@@ -20,11 +20,15 @@ p{
 }
 
 .logo{
-    display: flex;
-    align-items: center;
+    display: inline-block;
     gap: 8px;
     font-family: "Lato", system-ui;
     margin-bottom: 24px;
+
+    & img{
+        width: 20px;
+    }
+
 
     & a{
         font-weight: bold;
@@ -33,6 +37,7 @@ p{
     }
 
     & p{
+        display: inline-block;
         color: #191919;
         margin: 0;
     }
